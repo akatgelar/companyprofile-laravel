@@ -1,0 +1,14 @@
+services:
+  web:
+    # build: .
+    image: akatgelar/companyprofile-laravel:latest
+    container_name: 'companyprofile-laravel'
+    env_file:
+      - .env
+    ports:
+      - "2002:80"
+    # volumes:
+    #   - /home/ekosistemdesa/app/companyprofile-laravel/uploads:/var/www/public/uploads
+    #   - /home/ekosistemdesa/app/companyprofile-laravel/storage/framework:/var/www/storage/framework
+    #   - /home/ekosistemdesa/app/companyprofile-laravel/storage/logs:/var/www/storage/logs
+    restart: always
