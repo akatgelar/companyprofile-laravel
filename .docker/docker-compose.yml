@@ -6,7 +6,7 @@ services:
     env_file:
       - .env
     ports:
-      - "2002:80"
+      - "2020:80"
     # volumes:
     #   - /home/app/companyprofile-laravel/uploads:/var/www/public/uploads
     #   - /home/app/companyprofile-laravel/storage/framework:/var/www/storage/framework
