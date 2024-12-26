@@ -33,26 +33,26 @@
     @endif
 
     <!-- Library / Plugin Css Build -->
-    <link rel="stylesheet" href="{{ asset('assets/css/core/libs.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/assets/css/core/libs.min.css') }}">
 
     <!-- Hope Ui Design System Css -->
-    <link rel="stylesheet" href="{{ asset('assets/css/hope-ui.min.css?v=4.0.0') }}">
+    <link rel="stylesheet" href="{{ asset('assets/assets/css/hope-ui.min.css?v=4.0.0') }}">
 
     <!-- Custom Css -->
-    <link rel="stylesheet" href="{{ asset('assets/css/custom.min.css?v=4.0.0') }}">
+    <link rel="stylesheet" href="{{ asset('assets/assets/css/custom.min.css?v=4.0.0') }}">
 
     <!-- Dark Css -->
-    <link rel="stylesheet" href="{{ asset('assets/css/dark.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/assets/css/dark.min.css') }}">
 
     <!-- Customizer Css -->
-    <link rel="stylesheet" href="{{ asset('assets/css/customizer.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/assets/css/customizer.min.css') }}">
 
     <!-- RTL Css -->
-    <link rel="stylesheet" href="{{ asset('assets/css/rtl.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/assets/css/rtl.min.css') }}">
 
     <!-- SwiperSlider css -->
-    <link rel="stylesheet" href="{{ asset('assets/vendor/swiperSlider/swiper-bundle.min.css') }}">
-    <link rel="stylesheet" href="{{ asset('landing-pages/assets/css/landing-pages.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/assets/vendor/swiperSlider/swiper-bundle.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/client/assets/css/landing-pages.min.css') }}">
 </head>
 
 <body class=" body-bg landing-pages">
@@ -246,22 +246,22 @@
                         <ul class="list-unstyled p-0 m-0 d-flex mt-4">
                             <li>
                                 <a href="{{ $setting['socmed-facebook'] }}" target="_blank">
-                                    <img src="{{ asset('assets/images/brands/08.png') }}" alt="fb" loading="lazy" class="rounded-pill">
+                                    <img src="{{ asset('assets/assets/images/brands/08.png') }}" alt="fb" loading="lazy" class="rounded-pill">
                                 </a>
                             </li>
                             <li class="ps-3">
                                 <a href="{{ $setting['socmed-twitter'] }}" target="_blank">
-                                    <img src="{{ asset('assets/images/brands/09.png') }}" alt="gm" loading="lazy" class="rounded-pill">
+                                    <img src="{{ asset('assets/assets/images/brands/09.png') }}" alt="gm" loading="lazy" class="rounded-pill">
                                 </a>
                             </li>
                             <li class="ps-3">
                                 <a href="{{ $setting['socmed-instagram'] }}" target="_blank">
-                                    <img src="{{ asset('assets/images/brands/10.png') }}" alt="im" loading="lazy" class="rounded-pill">
+                                    <img src="{{ asset('assets/assets/images/brands/10.png') }}" alt="im" loading="lazy" class="rounded-pill">
                                 </a>
                             </li>
                             <li class="ps-3">
                                 <a href="{{ $setting['socmed-linkedin'] }}" target="_blank">
-                                    <img src="{{ asset('assets/images/brands/13.png') }}" alt="li" loading="lazy" class="rounded-pill">
+                                    <img src="{{ asset('assets/assets/images/brands/13.png') }}" alt="li" loading="lazy" class="rounded-pill">
                                 </a>
                             </li>
                         </ul>
@@ -298,38 +298,38 @@
 
     <!-- offcanvas start -->
     <!-- Library Bundle Script -->
-    <script src="{{ asset('assets/js/core/libs.min.js') }}"></script>
+    <script src="{{ asset('assets/assets/js/core/libs.min.js') }}"></script>
 
     <!-- External Library Bundle Script -->
-    <script src="{{ asset('assets/js/core/external.min.js') }}"></script>
+    <script src="{{ asset('assets/assets/js/core/external.min.js') }}"></script>
 
     <!-- Widgetchart Script -->
-    <script src="{{ asset('assets/js/charts/widgetcharts.js') }}"></script>
+    <script src="{{ asset('assets/assets/js/charts/widgetcharts.js') }}"></script>
 
     <!-- mapchart Script -->
-    <script src="{{ asset('assets/js/charts/vectore-chart.js') }}"></script>
-    <script src="{{ asset('assets/js/charts/dashboard.js') }}"></script>
+    <script src="{{ asset('assets/assets/js/charts/vectore-chart.js') }}"></script>
+    <script src="{{ asset('assets/assets/js/charts/dashboard.js') }}"></script>
 
     <!-- fslightbox Script -->
-    <script src="{{ asset('assets/js/plugins/fslightbox.js') }}"></script>
+    <script src="{{ asset('assets/assets/js/plugins/fslightbox.js') }}"></script>
 
     <!-- Settings Script -->
-    <script src="{{ asset('assets/js/plugins/setting.js') }}"></script>
+    <script src="{{ asset('assets/assets/js/plugins/setting.js') }}"></script>
 
     <!-- Slider-tab Script -->
-    <script src="{{ asset('assets/js/plugins/slider-tabs.js') }}"></script>
+    <script src="{{ asset('assets/assets/js/plugins/slider-tabs.js') }}"></script>
 
     <!-- Form Wizard Script -->
-    <script src="{{ asset('assets/js/plugins/form-wizard.js') }}"></script>
+    <script src="{{ asset('assets/assets/js/plugins/form-wizard.js') }}"></script>
 
     <!-- AOS Animation Plugin-->
 
     <!-- App Script -->
-    <script src="{{ asset('assets/js/hope-ui.js') }}" defer="defer"></script>
+    <script src="{{ asset('assets/assets/js/hope-ui.js') }}" defer="defer"></script>
 
     <!-- SwiperSlider Script -->
-    <script src="{{ asset('assets/vendor/swiperSlider/swiper-bundle.min.js') }}"></script>
-    <script src="{{ asset('landing-pages/assets/js/app-landing.js') }}" defer="defer"></script>
+    <script src="{{ asset('assets/assets/vendor/swiperSlider/swiper-bundle.min.js') }}"></script>
+    <script src="{{ asset('assets/client/assets/js/app-landing.js') }}" defer="defer"></script>
 </body>
 
 </html>

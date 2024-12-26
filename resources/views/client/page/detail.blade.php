@@ -1,7 +1,7 @@
 @extends('client.layouts.app')
 
 @section('content')
-<link rel="stylesheet" href="{{asset('vendor/laraberg/css/laraberg.css')}}">
+<link rel="stylesheet" href="{{asset('assets/assets/vendor/laraberg/css/laraberg.css')}}">
     <div class="inner-box">
         <div class="container">
             <div class="row">
