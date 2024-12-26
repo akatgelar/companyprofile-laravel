@@ -58,10 +58,10 @@
                 <!--Logo start-->
                 <div class="logo-main">
                     <div class="logo-normal">
-                        <img src="{{ asset('/'. str_replace("/xxx/", "/300/", $setting["favicon"])) }}">
+                        <img src="{{ asset('/') . 'uploads/300/' . $setting["favicon"] }}">
                     </div>
                     <div class="logo-mini">
-                        <img src="{{ asset('/'. str_replace("/xxx/", "/100/", $setting["favicon"])) }}">
+                        <img src="{{ asset('/') . 'uploads/100/' . $setting["favicon"] }}">
                     </div>
                 </div>
                 <!--logo End-->
@@ -337,10 +337,10 @@
                         <!--Logo start-->
                         <div class="logo-main">
                             <div class="logo-normal">
-                                <img src="{{ asset('/'. str_replace("/xxx/", "/300/", $setting["favicon"])) }}">
+                                <img src="{{ asset('/') . 'uploads/300/' . $setting["favicon"] }}">
                             </div>
                             <div class="logo-mini">
-                                <img src="{{ asset('/'. str_replace("/xxx/", "/100/", $setting["favicon"])) }}">
+                                <img src="{{ asset('/') . 'uploads/100/' . $setting["favicon"] }}">
                             </div>
                         </div>
                         <!--logo End-->
@@ -369,7 +369,7 @@
                                 <a class="py-0 nav-link d-flex align-items-center" href="#"
                                     id="navbarDropdown" role="button" data-bs-toggle="dropdown"
                                     aria-expanded="false">
-                                    <img src="{{ asset('/'. str_replace("/xxx/", "/100/", $session_data['user_picture'])) }}" class="theme-color-default-img img-fluid avatar avatar-50 avatar-rounded">
+                                    <img src="{{ asset('/') . 'uploads/100/' . $session_data['user_picture'] }}" class="theme-color-default-img img-fluid avatar avatar-50 avatar-rounded">
                                     <div class="caption ms-3 d-none d-md-block ">
                                         <h6 class="mb-0 caption-title">{{ $session_data['user_name'] }}</h6>
                                         <p class="mb-0 caption-sub-title">{{ $session_data['user_level_name'] }}</p>

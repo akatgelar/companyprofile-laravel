@@ -7,10 +7,10 @@
     <title>{{ $og['title'] . ' - ' .$setting['name'] }}</title>
 
     <!-- Favicon -->
-    <link rel="shortcut icon" href="{{ asset('/'.str_replace('/xxx/', '/100/', $setting['favicon'])) }}">
-    <link rel="apple-touch-icon" href="{{ asset('/'.str_replace('/xxx/', '/100/', $setting['favicon'])) }}">
-    <link rel="apple-touch-icon" sizes="72x72" href="{{ asset('/'.str_replace('/xxx/', '/100/', $setting['favicon'])) }}">
-    <link rel="apple-touch-icon" sizes="114x114" href="{{ asset('/'.str_replace('/xxx/', '/100/', $setting['favicon'])) }}">
+    <link rel="shortcut icon" href="{{ asset('/') . 'uploads/100/' . $setting['favicon'] }}">
+    <link rel="apple-touch-icon" href="{{ asset('/') . 'uploads/100/' . $setting['favicon'] }}">
+    <link rel="apple-touch-icon" sizes="72x72" href="{{ asset('/') . 'uploads/100/' . $setting['favicon'] }}">
+    <link rel="apple-touch-icon" sizes="114x114" href="{{ asset('/') . 'uploads/100/' . $setting['favicon'] }}">
 
     <!-- SEO -->
     <meta name="description" content="{{ $setting['seo-description'] }}">
@@ -29,7 +29,7 @@
     @if(isset($og['image']))
         <meta property="og:image" content="{{ asset('/'.$og['image']) }}">
     @else
-        <meta property="og:image" content="{{ asset('/'.str_replace('/xxx/', '/300/', $setting['favicon'])) }}">
+        <meta property="og:image" content="{{ asset('/') . 'uploads/300/' . $setting['favicon'] }}">
     @endif
 
     <!-- Library / Plugin Css Build -->
@@ -75,7 +75,7 @@
                     <div class="d-flex align-items-center justify-content-between w-100 landing-header">
                         <a href="{{url('/home')}}" class="navbar-brand m-0 d-xl-flex d-none">
                             <!--Logo start-->
-                            <img src="{{ asset('/'.str_replace("/xxx/", "/300/", $setting['favicon'])) }}">
+                            <img src="{{ asset('/') . 'uploads/300/' . $setting['favicon'] }}">
                             <!--logo End-->
                             <h5 class="logo-title">{{ $setting['name'] }}</h5>
                         </a>
@@ -90,7 +90,7 @@
 
                             <a href="{{url('/home')}}" class="navbar-brand ms-3  d-xl-none">
                                 <!--Logo start-->
-                                <img src="{{ asset('/'.str_replace("/xxx/", "/300/", $setting['favicon'])) }}">
+                                <img src="{{ asset('/') . 'uploads/300/' . $setting['favicon'] }}">
                                 <!--logo End-->
                                 <h5 class="logo-title">{{ $setting['name-short'] }}</h5>
                             </a>
@@ -135,7 +135,7 @@
                                 <div class="offcanvas-header px-0">
                                     <a href="{{url('/home')}}" class="navbar-brand ms-3  d-xl-none">
                                         <!--Logo start-->
-                                        <img src="{{ asset('/'.str_replace("/xxx/", "/300/", $setting['favicon'])) }}">
+                                        <img src="{{ asset('/') . 'uploads/300/' . $setting['favicon'] }}">
                                         <!--logo End-->
                                         <h5 class="logo-title">{{ $setting['name'] }}</h5>
                                     </a>
@@ -197,7 +197,7 @@
                 <div class="row">
                     <div class="col-md-4">
                         <a href="{{url('/home')}}" class="navbar-brand  d-flex align-items-center">
-                            <img src="{{ asset('/'.str_replace("/xxx/", "/300/", $setting['favicon'])) }}">
+                            <img src="{{ asset('/') . 'uploads/300/' . $setting['favicon'] }}">
                             <h4 class="logo-title ms-3 text-white">{{ $setting['name'] }}</h4>
                         </a>
                         <p class="text-white my-4">
